@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vinie4apps.horriobusaosd">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logofc"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logofc_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Linhas.João_Calixto"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Rio_Pinho"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Bairro_Boa_Vista"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Bairro_Capitão_Nestor"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Bairro_Const_Horta"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Bairro_Córrego_do_Ouro"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Bairro_da_Glória"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Bairro_de_Fátima"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Bairro_Santo_Antônio"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Bairro_Vila_Esperança"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Barra"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.CAIC"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Campo_Alegre"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Francesa"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Patrimônio_da_Serra"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Patrimônio_dos_Paiva"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".Linhas.Perobas"
+            android:parentActivityName = ".MainActivity"/>
+        <activity android:name=".fav.Fav"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-9515612908682608~3121615141"/>
+    </application>
+
+
+
+</manifest>

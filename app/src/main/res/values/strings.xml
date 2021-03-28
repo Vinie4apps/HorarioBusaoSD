@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Horário Busão SD</string>
+
+    <string name="admob_apid">ca-app-pub-9515612908682608~3121615141</string>
+    <string name="admob_banner">ca-app-pub-9515612908682608/4887667545</string>
+    <string name="admob_teste">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="tab_text_1">Semana</string>
+    <string name="tab_text_2">sábados</string>
+    <string name="tab_text_3">domingos e feriados</string>
+    <string name="hintSearchMess">Pesquise sua linha aqui !</string>
+</resources>

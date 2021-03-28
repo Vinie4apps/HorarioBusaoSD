@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vinie4apps.horariobusaojf.ScrollingActivity">
+
+
+    <item
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="Remover dos favoritos"
+        android:id="@+id/favSI"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_baseline_star_border_24"
+        android:title="Adiconar aos favoritos"
+        android:id="@+id/favNO"
+        app:showAsAction="always" />
+
+
+</menu>

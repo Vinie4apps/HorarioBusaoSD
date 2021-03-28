@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "132329784859",
+    "firebase_url": "https://horario-busao-sd.firebaseio.com",
+    "project_id": "horario-busao-sd",
+    "storage_bucket": "horario-busao-sd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132329784859:android:ee8ce0808000e894c25abe",
+        "android_client_info": {
+          "package_name": "com.vinie4apps.horriobusaosd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132329784859-preq39vp8oo9u4hgb08om9627egjbg7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpUgqZseRb6jFzU_txWFGheqP0FCVgAyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132329784859-preq39vp8oo9u4hgb08om9627egjbg7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
